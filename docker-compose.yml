@@ -8,5 +8,3 @@ services:
     tty: true
     volumes:
       - .:/app
-      - ./faq_data.json:/app/faq_data.json
-    # command: python faq_chatbot.py

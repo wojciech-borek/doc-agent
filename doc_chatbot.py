@@ -29,14 +29,6 @@ def chat_with_openai(query, pdf_text):
     else:
         translated_query = query
 
-
-    if query.lower() in pdf_text.lower():
-        return "Responsibility in documentation."
-    
-    
-    if query.lower() in pdf_text.lower():
-        return "Responsibility in documentation."
-    
     response = ask_openai(query, pdf_text)
 
     if user_language != "pl":

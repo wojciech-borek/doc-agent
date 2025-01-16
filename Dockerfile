@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "faq_chatbot.py"]
+# CMD ["python", "faq_chatbot.py"]

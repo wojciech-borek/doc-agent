@@ -1,0 +1,12 @@
+services:
+  faq_chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: faq_chatbot
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+      - ./faq_data.json:/app/faq_data.json
+    # command: python faq_chatbot.py

@@ -1,0 +1,6 @@
+openai==0.28
+fuzzywuzzy
+python-Levenshtein
+langdetect
+googletrans==4.0.0-rc1
+pdfplumber
